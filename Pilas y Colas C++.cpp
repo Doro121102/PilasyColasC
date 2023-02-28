@@ -17,7 +17,7 @@ int main() {
     int max = 10000000;
 
     int opcion;
-    cout << "Seleccione una opción de procesamiento:" << endl;
+    cout << "Seleccione una opciÃ³n (pila o cola):" << endl;
     cout << "1. Pila" << endl;
     cout << "2. Cola" << endl;
     cin >> opcion;
@@ -48,7 +48,7 @@ int main() {
             cola.pop();          
         }
     } else {
-        cout << "Opción inválida." << endl;
+        cout << "OpciÃ³n invÃ¡lida." << endl;
     }
 
     return 0;
